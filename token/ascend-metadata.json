@@ -1,0 +1,14 @@
+{
+  "name": "ASCEND",
+  "symbol": "ASCEND",
+  "description": "Utility token for Oracle of the Multi-Self — unlock premium readings, stake for rewards, govern future deck releases.",
+  "decimals": 9,
+  "supply": 1000000000,
+  "image": "https://your-ipfs-gateway/ascend-token.png",
+  "external_url": "https://your-ipfs-gateway",
+  "attributes": [
+    { "trait_type": "Type", "value": "Utility" },
+    { "trait_type": "Chain", "value": "Solana" },
+    { "trait_type": "Use", "value": "Deck Unlock / Staking / Governance" }
+  ]
+}

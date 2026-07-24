@@ -1,0 +1,9 @@
+name = "oracle-crypto-worker"
+main = "src/index.ts"
+compatibility_date = "2024-11-01"
+
+[vars]
+COINPAY_API_URL = "https://coinpayportal.com"
+
+[env.production]
+COINPAY_API_URL = "https://coinpayportal.com"

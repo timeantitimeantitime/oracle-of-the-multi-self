@@ -1,0 +1,17 @@
+{
+  "name": "ascend-staking",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "stake": "node stake.mjs",
+    "unstake": "node unstake.mjs",
+    "claim": "node claim.mjs",
+    "balance": "node balance.mjs"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.98.0",
+    "@solana/spl-token": "^0.4.9",
+    "dotenv": "^16.4.7"
+  }
+}
