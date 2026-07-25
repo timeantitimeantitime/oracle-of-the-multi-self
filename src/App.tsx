@@ -130,7 +130,11 @@ function AppInner() {
 
         {/* Title */}
         <div className="text-center mb-12">
-          <div className="text-5xl mb-4">✦</div>
+          <img
+            src={`${import.meta.env.BASE_URL}cards/cardback.png`}
+            alt="Oracle"
+            className="w-16 h-auto mx-auto mb-4 opacity-80"
+          />
           <h1 className="text-3xl md:text-5xl font-light gradient-text mb-3">
             Oracle of the Multi-Dimensional Self
           </h1>
@@ -151,7 +155,16 @@ function AppInner() {
             onClick={() => handleStartReading('single')}
             className="group bg-white border border-indigo-200 p-6 text-center hover:border-indigo-400 transition-all hover:scale-105 glow-indigo"
           >
-            <div className="text-2xl mb-2">🃏</div>
+            <svg className="w-10 h-10 mx-auto mb-2 text-indigo-500" viewBox="0 0 100 100" fill="none" stroke="currentColor" strokeWidth="1.2">
+              <circle cx="50" cy="50" r="16" />
+              <circle cx="50" cy="34" r="16" />
+              <circle cx="50" cy="66" r="16" />
+              <circle cx="36" cy="42" r="16" />
+              <circle cx="64" cy="42" r="16" />
+              <circle cx="36" cy="58" r="16" />
+              <circle cx="64" cy="58" r="16" />
+              <circle cx="50" cy="50" r="48" />
+            </svg>
             <div className="text-sm font-medium text-indigo-600 mb-1">Single Card</div>
             <div className="text-xs text-slate-500">Quick guidance</div>
           </button>

@@ -33,7 +33,7 @@ export default function WalletButton() {
       onClick={connect}
       className="bg-indigo-600 hover:bg-indigo-500 text-white px-4 py-2 text-sm transition-colors"
     >
-      Connect Phantom
+      Connect Phantom Wallet
     </button>
   );
 }
