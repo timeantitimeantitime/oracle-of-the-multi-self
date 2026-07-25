@@ -130,11 +130,13 @@ function AppInner() {
 
         {/* Title */}
         <div className="text-center mb-12">
-          <img
-            src={`${import.meta.env.BASE_URL}cards/cardback.png`}
-            alt="Oracle"
-            className="w-16 h-auto mx-auto mb-4 opacity-80"
-          />
+          <div className="flex justify-center mb-4">
+            <img
+              src={`${import.meta.env.BASE_URL}cards/cardback.png`}
+              alt="Oracle"
+              className="w-16 h-auto opacity-80"
+            />
+          </div>
           <h1 className="text-3xl md:text-5xl font-light gradient-text mb-3">
             Oracle of the Multi-Dimensional Self
           </h1>
@@ -155,7 +157,7 @@ function AppInner() {
             onClick={() => handleStartReading('single')}
             className="group bg-white border border-indigo-200 p-6 text-center hover:border-indigo-400 transition-all hover:scale-105 glow-indigo"
           >
-            <svg className="w-10 h-10 mx-auto mb-2 text-indigo-500" viewBox="0 0 100 100" fill="none" stroke="currentColor" strokeWidth="1.2">
+            <svg className="w-10 h-10 text-indigo-500" viewBox="0 0 100 100" fill="none" stroke="currentColor" strokeWidth="1.2" style={{ display: 'block', margin: '0 auto 0.5rem auto' }}>
               <circle cx="50" cy="50" r="16" />
               <circle cx="50" cy="34" r="16" />
               <circle cx="50" cy="66" r="16" />
