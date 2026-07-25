@@ -3,7 +3,7 @@ import cardsData from '../data/cards.json';
 
 export const cards: Card[] = cardsData.map((card) => ({
   ...card,
-  imageSrc: `/cards/${card.filename}`,
+  imageSrc: `${import.meta.env.BASE_URL}cards/${card.filename}`,
 }));
 
 export function shuffleDeck(deck: Card[]): Card[] {

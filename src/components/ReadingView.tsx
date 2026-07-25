@@ -123,7 +123,7 @@ export default function ReadingView({ layout, onBack, onCardDraw }: ReadingViewP
       </div>
 
       {allRevealed && (
-        <div className="text-center mt-16">
+        <div className="text-center mt-20 pt-8 border-t border-slate-200">
           <p className="text-sm text-slate-500 mb-4">
             Click any card to read its full meaning
           </p>

@@ -32,7 +32,7 @@ export default function CardComponent({ card, isFlipped = false, onClick, size =
         {/* Front - Card back design */}
         <div className="card-front absolute inset-0 overflow-hidden bg-black">
           <img
-            src="/cards/cardback.png"
+            src={`${import.meta.env.BASE_URL}cards/cardback.png`}
             alt="Oracle of the Multi-Self"
             className="w-full h-full object-contain"
           />
