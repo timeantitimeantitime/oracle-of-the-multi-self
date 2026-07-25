@@ -12,9 +12,9 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['cards/*.jpg', 'cards/*.JPG', 'cards/*.jpeg'],
       manifest: {
-        name: 'Oracle of the Multi-Self',
+        name: 'Oracle of the Multi-Dimensional Self',
         short_name: 'Oracle',
-        description: 'A quantum minimalist oracle card deck for ascension technologies',
+        description: 'A quantum oracle card deck for ascension technologies, light quotients, and multidimensional self-realization',
         theme_color: '#0a0a0f',
         background_color: '#0a0a0f',
         display: 'standalone',

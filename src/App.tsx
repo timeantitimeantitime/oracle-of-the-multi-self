@@ -132,7 +132,7 @@ function AppInner() {
         <div className="text-center mb-12">
           <div className="text-5xl mb-4">✦</div>
           <h1 className="text-3xl md:text-5xl font-light gradient-text mb-3">
-            Oracle of the Multi-Self
+            Oracle of the Multi-Dimensional Self
           </h1>
           <p className="text-sm text-slate-500 max-w-md mx-auto">
             A quantum oracle card deck for ascension technologies,

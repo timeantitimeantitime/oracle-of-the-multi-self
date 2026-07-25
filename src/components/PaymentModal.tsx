@@ -25,7 +25,7 @@ export default function PaymentModal({ isOpen, onClose, onSuccess }: PaymentModa
           amount: 9.99,
           coin: selectedCoin,
           chain: selectedCoin === 'BTC' ? 'bitcoin' : selectedCoin === 'ETH' ? 'ethereum' : 'solana',
-          description: 'Oracle of the Multi-Self - Full Deck Access',
+          description: 'Oracle of the Multi-Dimensional Self - Full Deck Access',
           redirect_url: window.location.href,
         }),
       });
